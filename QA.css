@@ -1,95 +1,75 @@
-html{
 
-}
-
-body{
+body {
   margin: 0;
-  width:100%;
   overflow-x: hidden;
   background-color: black;
-    background-image: url("images/back.png");
-
+  background-image: url("images/back.png");
+  padding-bottom: 50px;
+}
+html {
+    height: 100%
 }
 
-a{
-  text-decoration: none;
 
+.formula{
+margin: 100px auto 0 auto;
+width:100%;
 }
 
 
-.card{
-  width: 300px;
-  margin: 0 50px 50px 50px;
-  text-align: center;
-  padding: 20px 0 50px 0;
-  border-radius: 50px;
-  border-color: white;
-  border-style: solid;
-  border-width: 2px;
-  overflow: hidden;
-  background-color:  rgba(0, 0, 0, .4)
+hr{
+height: 1px;
+color: white;
 }
 
-.cardimg{
-  position: relative;
-  height: 50%;
-  width: 100%;
 
-}
-
-.img1{
+.stats{
+  padding: 20px 0 20px 0;
   width: 80%;
-  margin-top: 10px;
 }
 
-.btnone{
-  margin: 20px auto 0 auto;
-  width: 150px;
+.statsdiv{
   border-radius: 25px;
-  border-color: #34a4eb;
+  padding: 20px 0 20px 0;
+  margin: 30px auto 30px auto;
+  border-color: #EC008C;
   border-style: solid;
-  border-width: 2px;
-  bottom: 0px;
-
+  border-width: thin;
+  width: 300px;
+  text-align: center;
 }
 
-.btntext{
-  color: #34a4eb;
-  margin: 0;
-  padding: 0;
-  font-size: 1.5rem;
-  font-weight: bold;
-font-family: 'Open Sans', sans-serif;
-}
-
-.headtwo{
+.welcome{
   margin: 0 auto 0 auto;
+  width: 100vw;
+  text-align: center;
+}
+
+.welcome1{
+  margin: 0 auto 0 auto;
+  width: 100vw;
+  text-align: center;
+}
+
+.textone{
   color: white;
-  font-size: 1rem;
-  width: 80%;
-  font-weight: normal;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
 font-family: 'Open Sans', sans-serif;
 text-align: center;
 }
 
-
-
-.flexbox{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-align-items: center;
-padding: 80px 20px;
+.texttwo{
+  margin: 0 auto 0 auto;;
+  color: white;
+  font-size: 1rem;
+  width: 50%;
+  padding: 0 10px 0 10px;
+  font-weight: normal;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
 }
-
-
-
-
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
 
 .logo{
   position:fixed;
@@ -99,6 +79,15 @@ padding: 80px 20px;
   right: 20px;
 }
 
+
+.back1{
+  width: 100vw;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -131,10 +120,6 @@ font-family: 'Open Sans', sans-serif;
 
 
 
-
-
-
-
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -157,6 +142,9 @@ font-family: 'Open Sans', sans-serif;
     text-align: left;
   }
 
+
+
+
   .logo{
     position:fixed;
     z-index: 100;
@@ -165,9 +153,18 @@ font-family: 'Open Sans', sans-serif;
     right: 20px;
   }
 
-  .card{
-    width: 90%;
-    margin: 50px 0;
+  .proimg{
+    width: 50px;
+    border-width: 1px;
 
+  }
+
+
+  .texttwo{
+    margin: 0 auto 0 auto;;
+    width: 80%;
+    padding: 0 10px 0 10px;
+
+  }
 
 }
