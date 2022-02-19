@@ -14,7 +14,35 @@ body{
   overflow-y: hidden;
   height: 100vh;
 }
+.btnone{
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  width: 200px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  bottom: 100px;
 
+}
+
+.btnone:hover{
+background-color: purple;
+  border-color: purple;
+
+}
+
+
+.para{
+  margin: 0 auto 0 auto;
+  color: white;
+  font-size: 2rem;
+  font-weight: normal;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
 
 .frontcover{
   position: absolute;
