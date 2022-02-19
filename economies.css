@@ -7,14 +7,94 @@ body{
   width:100%;
   overflow-x: hidden;
   background-color: black;
+    background-image: url("images/back.png");
 
 }
+
+
+.card{
+  width: 300px;
+  margin: 0 50px 50px 50px;
+  text-align: center;
+  height: 360px;
+  padding-top: 20px;
+  border-radius: 50px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  overflow: hidden;
+  background-color:  rgba(0, 0, 0, .4)
+}
+
+.cardimg{
+  position: relative;
+  height: 50%;
+  width: 100%;
+
+}
+
+.img1{
+  width: 80%;
+  margin-top: 10px;
+}
+
+.btnone{
+  margin: 20px auto 0 auto;
+  width: 150px;
+  border-radius: 25px;
+  border-color: #34a4eb;
+  border-style: solid;
+  border-width: 2px;
+  bottom: 0px;
+
+}
+
+.btntext{
+  color: #34a4eb;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+font-family: 'Open Sans', sans-serif;
+}
+
+.headtwo{
+  margin: 0 auto 0 auto;
+  color: white;
+  font-size: 1rem;
+  width: 80%;
+  font-weight: normal;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+}
+
+
+
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+align-items: center;
+padding: 80px 20px;
+}
+
+
 
 
 .topnav {
   background-color: #333;
   overflow: hidden;
 }
+
+
+.logo{
+  position:fixed;
+  z-index: 100;
+  width: 200px;
+  bottom: 20px;
+  right: 20px;
+}
+
 
 /* Style the links inside the navigation bar */
 .topnav a {
