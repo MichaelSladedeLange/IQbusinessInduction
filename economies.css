@@ -16,6 +16,22 @@ a{
 
 }
 
+.shake{
+  animation: shake 10s linear forwards;
+}
+
+
+@keyframes shake {
+  0%{ transform: rotate(0deg);}
+  1% {transform: rotate(-3deg);}
+  2% {transform: rotate(3deg);}
+  3% {transform: rotate(-3deg);}
+  4% {transform: rotate(3deg);}
+  5% {transform: rotate(-3deg);}
+  6% {transform: rotate(3deg);}
+  7% {transform: rotate(-0deg);}
+  100%{transform: rotate(-0deg);}
+}
 
 .card{
   width: 300px;
